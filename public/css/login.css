@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css?family=Francois+One');
+
+/*
+body
+{
+	background-color: #60C7A2;
+
+}*/
+
+#titulo
+{
+	color:white;
+	text-align: center;
+	font-family: 'Francois One', sans-serif;
+	font-size: 6em;
+	
+	margin-top: 20px;
+}
+
+#loginpets
+{
+    background-color: #60C7A2;
+}
+
+ #white
+            {
+                background-image: url("/images/white.svg");
+                height: 15px;
+                width: 50%;
+                margin-bottom: 60px;
+                top: 50%;
+                margin-left: 25%;
+    
+            }
+
+             #rose
+            {
+                background-image: url("/images/rose.svg");
+                height: 10px;
+                width: 25%;
+                margin-left: 40%;
+                margin-top: 40px;
+                
+                
+    
+            }
+
+            #title
+            {
+                color: white;
+                font-size: 4em;
+                font-family: 'Francois One', sans-serif;
+                text-align: center;
+            }
+
+            #loglinks
+            {
+                
+                 font-family: 'Francois One', sans-serif;
+                 font-size: 2em;
+                 
+            }

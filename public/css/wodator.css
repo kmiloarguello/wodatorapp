@@ -1,0 +1,326 @@
+
+@import url('https://fonts.googleapis.com/css?family=Francois+One');
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+
+body
+{
+    background-color: #303030;
+}
+
+#name
+{
+    color: white;
+    font-size: 20px;
+    font-family:Roboto; 
+}
+
+#time
+{
+    color: white;
+    font-size: 20px;
+    font-family:Roboto; 
+    text-align: center;
+
+}
+
+#thetitle
+{
+      color: white;
+    font-size: 46px;
+    text-align: center;
+    font-family: bebas;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+#titulo
+{
+    color:white;
+    text-align: center;
+    font-family: 'Francois One', sans-serif;
+    font-size: 6em;
+    
+    margin-top: 20px;
+}
+
+label .miaw
+{
+    color: white;
+}
+
+
+
+.logo
+{
+    width: 23%;
+    height: 115%;
+    margin: 8px 29px 2px 142px;
+    float: right;
+    
+}
+
+.flogo
+{
+    width: 23%;
+    height: 115%;
+    margin: 3px 3px 2px 98px;
+    
+}
+
+.show {
+    height: 109px;
+    text-align: center;
+    padding: 10px;
+    background-color: #222222;
+    margin-top: 47px;
+}
+
+p.lead {
+    text-align: center;
+    margin-top: 50px;
+    color: white;
+    font-family: 'Roboto';
+
+}
+
+.pet
+{
+background-color: #00968857;
+    margin: 26px;
+    margin-top: 104px;
+}
+.wrapper {
+ width: 40%;
+    min-width: 300px;
+    max-width: 600px;
+    position: relative;
+    overflow: hidden;
+        margin-top: 45px;
+
+}
+
+.input, .textbox {
+  font-size: var(--font-size);
+  font-weight: var(--font-weight);
+  font-family: var(--font-family);
+}
+
+.input {
+  width: 100%;
+    padding: 0;
+    line-height: 2;
+    background: transparent;
+    border-width: 0 0 2px 0;
+    border-color: #777;
+    color: #ddd;
+    margin-left: 61px;
+}
+.input:focus {
+  outline: none;
+}
+
+.textbox {
+  max-width: 100%;
+  position: absolute;
+  top: 100%;
+}
+
+.highlight {
+  position: absolute;
+  height: 2px;
+  background: #ddd;
+  width: 0;
+  bottom: 0;
+  transition: width .1s ease, background .2s ease;
+}
+
+.input:focus + .highlight {
+  background: #0ebeff;
+}
+
+
+
+
+#random 
+{
+    
+    height: 165px;
+    width: 87%;
+    margin-top: 149px;
+    margin-left: 70px;
+    background-color: rebeccapurple; 
+
+}
+
+
+#timer
+{
+    /* margin-bottom: 18px; */
+    height: 300px;
+    /* width: 87%; */
+    font-size: 5em;
+    /* margin-top: 20px; */
+    margin-left: 307px;
+
+    transform: translate(-50%, -50%);
+    /* background-color: #222222; */
+        color: white;
+}
+
+
+.center 
+{
+    position: absolute;
+    margin-top: 14%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.center-first
+{
+    position: absolute;
+        margin-top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.button
+{
+  
+  display: inherit;
+  margin-bottom: 15px;
+  width: 400px;
+  height: 106px;
+  padding: 15px;
+  margin-right: 5px;
+  background: #222222;
+  border: none;
+  outline: none;
+  color: white;
+  font-family: inherit;
+  font-weight: 400;
+  font-size: 20px;
+  border-radius: 3px;
+  box-shadow: 5px 10px #333333;
+  
+}
+
+  .button :hover
+  {
+    background: #5c5c5c;
+    box-shadow: 5px 10px #272727;
+    transition: all 0.1s ease-in;
+  }
+  
+ .button :active{
+    transform:translateY(4px);
+    border-bottom-width: 2px;
+    box-shadow: none;
+  }
+
+  .fav-icon
+  {
+    float: right;
+    margin-right: 20px;
+    padding-bottom: 18px;
+  }
+#toggle {
+    display: inline-block;
+    color: white;
+    text-transform: uppercase;
+    width: 12%;
+    height: 56px;
+    margin-left: 314px ;
+    background-color: #222222;
+    border-radius: 15px;
+}
+
+#clear {
+    display: inline-block;
+    color: white;
+    text-transform: uppercase;
+    width: 12%;
+    height: 56px;
+    margin-left: 16px;
+    background-color: #222222;
+    border-radius: 15px;
+  }
+#favorites {
+    float: right;
+    margin-right: 20px;
+    margin-top: 44px;
+}
+
+#plus 
+{
+  background-color: #222222;
+    color: white;
+    border-radius: 19px;
+    width: 6%;
+    height: 46px;
+}
+
+#reset 
+{
+  background-color: #222222;
+    color: white;
+    border-radius: 19px;
+    width: 6%;
+    height: 46px;
+}
+
+#minus
+{
+  background-color: #222222;
+    color: white;
+    border-radius: 19px;
+    width: 6%;
+    height: 46px;
+}
+
+#total
+{
+    color: white;
+    font-size: 4em;
+    text-align: center;
+}
+
+.cruz 
+{
+  font-size: 1em;
+}
+
+.again 
+{
+  font-size: 1em;
+}
+
+.minus
+{
+  font-size: 1em;
+}
+.rounds-butt
+{
+  transform: translate(30%, -20%);
+
+}
+
+.rounds
+{
+    height: 107px;
+    margin-top: 135px;
+  }
+
+
+.nameexerc
+{
+  color: #929191;
+    font-family: 'Roboto';
+    font-size: 20px;
+}
+.desc
+{
+  color:white;
+  font-family: 'Roboto';
+}
+
